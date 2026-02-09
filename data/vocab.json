@@ -582,6 +582,121 @@
             "en": "cash"
           }
         ]
+      },
+      {
+        "name": "Cafe & Restaurant",
+        "cards": [
+          {
+            "kr": "수고하세요",
+            "rom": "SU-GO-HA-SE-YO",
+            "en": "Thank you for your hard work (when leaving)"
+          },
+          {
+            "kr": "또 올게요",
+            "rom": "TTO OL-GE-YO",
+            "en": "I'll come again"
+          },
+          {
+            "kr": "잘 먹겠습니다",
+            "rom": "JAL MEOK-GET-SEUM-NI-DA",
+            "en": "I will eat well (before meal)"
+          },
+          {
+            "kr": "잘 먹었습니다",
+            "rom": "JAL MEO-GEOT-SEUM-NI-DA",
+            "en": "I ate well (after meal)"
+          },
+          {
+            "kr": "저기요",
+            "rom": "JEO-GI-YO",
+            "en": "Excuse me (calling staff)"
+          },
+          {
+            "kr": "여기요",
+            "rom": "YEO-GI-YO",
+            "en": "Excuse me (staff is close)"
+          },
+          {
+            "kr": "물 좀 주세요",
+            "rom": "MUL JOM JU-SE-YO",
+            "en": "Water please"
+          },
+          {
+            "kr": "휴지 좀 주세요",
+            "rom": "HYU-JI JOM JU-SE-YO",
+            "en": "Tissue please"
+          },
+          {
+            "kr": "따뜻한 거 주세요",
+            "rom": "TTA-TTEU-TAN GEO JU-SE-YO",
+            "en": "Hot one please"
+          },
+          {
+            "kr": "여기서 먹고 갈게요",
+            "rom": "YEO-GI-SEO MEOK-GO GAL-GE-YO",
+            "en": "I'll eat here (for here)"
+          },
+          {
+            "kr": "가지고 갈게요",
+            "rom": "GA-JI-GO GAL-GE-YO",
+            "en": "I'll take it to go"
+          },
+          {
+            "kr": "얼음 빼 주세요",
+            "rom": "EO-REUM PPAE JU-SE-YO",
+            "en": "No ice please"
+          }
+        ]
+      },
+      {
+        "name": "Hotel & Travel",
+        "cards": [
+          {
+            "kr": "예약했어요",
+            "rom": "YE-YAK-HAE-SSEO-YO",
+            "en": "I made a reservation"
+          },
+          {
+            "kr": "체크인 할게요",
+            "rom": "CHE-KEU-IN HAL-GE-YO",
+            "en": "I will check in"
+          },
+          {
+            "kr": "여기 있어요",
+            "rom": "YEO-GI I-SSEO-YO",
+            "en": "Here you go"
+          },
+          {
+            "kr": "짐 맡길 수 있어요?",
+            "rom": "JIM MAT-GIL SU I-SSEO-YO?",
+            "en": "Can you hold my luggage?"
+          },
+          {
+            "kr": "아직 한국어를 배우고 있어요",
+            "rom": "A-JIK HAN-GUG-EO-REUL BAE-U-GO I-SSEO-YO",
+            "en": "I'm still learning Korean"
+          }
+        ]
+      },
+      {
+        "name": "Self-Introduction",
+        "cards": [
+          {
+            "kr": "저는 제이다예요",
+            "rom": "JEO-NEUN JE-I-DA-YE-YO",
+            "en": "I'm Jaida"
+          },
+          {
+            "kr": "저는 미국에서 왔어요",
+            "rom": "JEO-NEUN MI-GUG-E-SEO WA-SSEO-YO",
+            "en": "I came from the US"
+          },
+          {
+            "kr": "혹시",
+            "rom": "HOK-SI",
+            "en": "By any chance (polite marker)"
+          }
+        ]
       }
     ]
   }

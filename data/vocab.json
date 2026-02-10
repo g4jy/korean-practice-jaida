@@ -173,6 +173,24 @@
         "rom": "A-I-SEU-KEU-RIM",
         "en": "ice cream",
         "category": "food"
+      },
+      {
+        "kr": "요즘",
+        "rom": "",
+        "en": "These days",
+        "category": "general"
+      },
+      {
+        "kr": "재밌어요",
+        "rom": "",
+        "en": "Fun/Interesting (NOT \"funny/laughable\")",
+        "category": "general"
+      },
+      {
+        "kr": "사진",
+        "rom": "",
+        "en": "Photo/Picture",
+        "category": "general"
       }
     ],
     "verbs": [
@@ -330,6 +348,24 @@
         "rom": "UN-DONG",
         "en": "Exercise",
         "category": "activity"
+      },
+      {
+        "kr": "요즘",
+        "rom": "",
+        "en": "These days",
+        "category": "general"
+      },
+      {
+        "kr": "재밌어요",
+        "rom": "",
+        "en": "Fun/interesting (not \"funny/laughable\")",
+        "category": "general"
+      },
+      {
+        "kr": "사진",
+        "rom": "",
+        "en": "Photo/picture",
+        "category": "general"
       }
     ],
     "adjectives": [
@@ -455,6 +491,16 @@
         "en": "tiring",
         "compatibleSubjects": [
           "activity"
+        ]
+      },
+      {
+        "id": "cute",
+        "kr": "귀여워요",
+        "rom": "",
+        "en": "Cute",
+        "compatibleSubjects": [
+          "food",
+          "drink"
         ]
       }
     ],

@@ -43,6 +43,24 @@
         "rom": "JEO-NYEOK-E",
         "en": "in the evening",
         "tense": "past"
+      },
+      {
+        "kr": "지금",
+        "rom": "JI-GEUM",
+        "en": "now",
+        "tense": "present"
+      },
+      {
+        "kr": "나중에",
+        "rom": "NA-JUNG-E",
+        "en": "later",
+        "tense": "future"
+      },
+      {
+        "kr": "주말에",
+        "rom": "JU-MAL-E",
+        "en": "on the weekend",
+        "tense": "past"
       }
     ],
     "places": [
@@ -290,6 +308,38 @@
         "future": "살 거예요",
         "futureRom": "SAL GGEO-YE-YO",
         "futureEn": "will buy"
+      },
+      {
+        "id": "jeonhwahada",
+        "en": "call",
+        "objectTypes": [
+          "person"
+        ],
+        "placeParticle": "eseo",
+        "past": "전화했어요",
+        "pastRom": "JEON-HWA-HAE-SSEO-YO",
+        "pastEn": "called",
+        "present": "전화해요",
+        "presentRom": "JEON-HWA-HAE-YO",
+        "presentEn": "call",
+        "future": "전화할 거예요",
+        "futureRom": "JEON-HWA-HAL GGEO-YE-YO",
+        "futureEn": "will call"
+      },
+      {
+        "id": "swida",
+        "en": "rest",
+        "objectTypes": [],
+        "placeParticle": "eseo",
+        "past": "쉬었어요",
+        "pastRom": "SWI-EO-SSEO-YO",
+        "pastEn": "rested",
+        "present": "쉬어요",
+        "presentRom": "SWI-EO-YO",
+        "presentEn": "rest",
+        "future": "쉴 거예요",
+        "futureRom": "SWIL GGEO-YE-YO",
+        "futureEn": "will rest"
       }
     ]
   },
@@ -501,6 +551,42 @@
         "compatibleSubjects": [
           "food",
           "drink"
+        ]
+      },
+      {
+        "id": "happy",
+        "kr": "행복해요",
+        "rom": "HAENG-BOK-HAE-YO",
+        "en": "happy (extreme)",
+        "compatibleSubjects": [
+          "activity"
+        ]
+      },
+      {
+        "id": "sad",
+        "kr": "슬퍼요",
+        "rom": "SEUL-PEO-YO",
+        "en": "sad",
+        "compatibleSubjects": [
+          "activity"
+        ]
+      },
+      {
+        "id": "busy",
+        "kr": "바빠요",
+        "rom": "BA-PPA-YO",
+        "en": "busy",
+        "compatibleSubjects": [
+          "activity"
+        ]
+      },
+      {
+        "id": "hungry",
+        "kr": "배고파요",
+        "rom": "BAE-GO-PA-YO",
+        "en": "hungry",
+        "compatibleSubjects": [
+          "activity"
         ]
       }
     ],
@@ -741,6 +827,101 @@
             "kr": "혹시",
             "rom": "HOK-SI",
             "en": "By any chance (polite marker)"
+          }
+        ]
+      },
+      {
+        "name": "Connectors",
+        "cards": [
+          {
+            "kr": "그래서",
+            "rom": "GEU-RAE-SEO",
+            "en": "so, therefore"
+          },
+          {
+            "kr": "그리고",
+            "rom": "GEU-RI-GO",
+            "en": "and, and then"
+          },
+          {
+            "kr": "그런데",
+            "rom": "GEU-REON-DE",
+            "en": "but, however (casual)"
+          },
+          {
+            "kr": "하지만",
+            "rom": "HA-JI-MAN",
+            "en": "but, however (formal)"
+          }
+        ]
+      },
+      {
+        "name": "Time & Sequence",
+        "cards": [
+          {
+            "kr": "먼저",
+            "rom": "MEON-JEO",
+            "en": "first"
+          },
+          {
+            "kr": "나중에",
+            "rom": "NA-JUNG-E",
+            "en": "later"
+          },
+          {
+            "kr": "다음에",
+            "rom": "DA-EUM-E",
+            "en": "next time"
+          },
+          {
+            "kr": "지금",
+            "rom": "JI-GEUM",
+            "en": "now"
+          },
+          {
+            "kr": "같이",
+            "rom": "GA-CHI",
+            "en": "together"
+          }
+        ]
+      },
+      {
+        "name": "Daily Life",
+        "cards": [
+          {
+            "kr": "행복해요",
+            "rom": "HAENG-BOK-HAE-YO",
+            "en": "happy (extreme joy)"
+          },
+          {
+            "kr": "좋아요",
+            "rom": "JO-A-YO",
+            "en": "good/nice (everyday happy)"
+          },
+          {
+            "kr": "슬퍼요",
+            "rom": "SEUL-PEO-YO",
+            "en": "sad"
+          },
+          {
+            "kr": "바빠요",
+            "rom": "BA-PPA-YO",
+            "en": "busy"
+          },
+          {
+            "kr": "피곤해요",
+            "rom": "PI-GON-HAE-YO",
+            "en": "tired"
+          },
+          {
+            "kr": "배고파요",
+            "rom": "BAE-GO-PA-YO",
+            "en": "hungry"
+          },
+          {
+            "kr": "머리 아파요",
+            "rom": "MEO-RI A-PA-YO",
+            "en": "I have a headache"
           }
         ]
       }

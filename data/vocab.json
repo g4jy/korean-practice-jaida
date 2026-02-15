@@ -209,6 +209,84 @@
         "rom": "",
         "en": "Photo/Picture",
         "category": "general"
+      },
+      {
+        "kr": "회사",
+        "rom": "HOE-SA",
+        "en": "company/work",
+        "category": "general"
+      },
+      {
+        "kr": "집",
+        "rom": "JIP",
+        "en": "home",
+        "category": "general"
+      },
+      {
+        "kr": "은행",
+        "rom": "EUN-HAENG",
+        "en": "bank",
+        "category": "general"
+      },
+      {
+        "kr": "헬스장",
+        "rom": "HEL-SEU-JANG",
+        "en": "gym",
+        "category": "general"
+      },
+      {
+        "kr": "밥",
+        "rom": "BAP",
+        "en": "rice/meal",
+        "category": "general"
+      },
+      {
+        "kr": "한국어",
+        "rom": "HAN-GUG-EO",
+        "en": "Korean language",
+        "category": "general"
+      },
+      {
+        "kr": "오늘",
+        "rom": "O-NEUL",
+        "en": "today",
+        "category": "general"
+      },
+      {
+        "kr": "어제",
+        "rom": "EO-JE",
+        "en": "yesterday",
+        "category": "general"
+      },
+      {
+        "kr": "내일",
+        "rom": "NAE-IL",
+        "en": "tomorrow",
+        "category": "general"
+      },
+      {
+        "kr": "지금",
+        "rom": "JI-GEUM",
+        "en": "now/right now",
+        "category": "general"
+      },
+      {
+        "kr": "조금",
+        "rom": "JO-GEUM",
+        "en": "a little",
+        "category": "general"
+      },
+      {
+        "kr": "벌써",
+        "rom": "BEOL-SSEO",
+        "en": "already",
+        "category": "general"
+      },
+      {
+        "kr": "갈비",
+        "rom": "GAL-BI",
+        "en": "galbi (beef ribs)",
+        "category": "general"
       }
     ],
     "verbs": [
@@ -340,6 +418,85 @@
         "future": "쉴 거예요",
         "futureRom": "SWIL GGEO-YE-YO",
         "futureEn": "will rest"
+      },
+      {
+        "id": "ilhada",
+        "en": "work",
+        "objectTypes": [],
+        "placeParticle": "eseo",
+        "past": "일했어요",
+        "pastRom": "IL-HAE-SSEO-YO",
+        "pastEn": "worked",
+        "present": "일해요",
+        "presentRom": "IL-HAE-YO",
+        "presentEn": "work",
+        "future": "일할 거예요",
+        "futureRom": "IL-HAL GGEO-YE-YO",
+        "futureEn": "will work"
+      },
+      {
+        "id": "gada",
+        "en": "go",
+        "objectTypes": [],
+        "placeParticle": "e",
+        "past": "갔어요",
+        "pastRom": "GA-SSEO-YO",
+        "pastEn": "went",
+        "present": "가요",
+        "presentRom": "GA-YO",
+        "presentEn": "go",
+        "future": "갈 거예요",
+        "futureRom": "GAL GGEO-YE-YO",
+        "futureEn": "will go"
+      },
+      {
+        "id": "meokda",
+        "en": "eat",
+        "objectTypes": [
+          "food"
+        ],
+        "placeParticle": "eseo",
+        "past": "먹었어요",
+        "pastRom": "MEO-GEO-SSEO-YO",
+        "pastEn": "ate",
+        "present": "먹어요",
+        "presentRom": "MEO-GEO-YO",
+        "presentEn": "eat",
+        "future": "먹을 거예요",
+        "futureRom": "MEO-GEUL GGEO-YE-YO",
+        "futureEn": "will eat"
+      },
+      {
+        "id": "masida",
+        "en": "drink",
+        "objectTypes": [
+          "drink"
+        ],
+        "placeParticle": "eseo",
+        "past": "마셨어요",
+        "pastRom": "MA-SYEO-SSEO-YO",
+        "pastEn": "drank",
+        "present": "마셔요",
+        "presentRom": "MA-SYEO-YO",
+        "presentEn": "drink",
+        "future": "마실 거예요",
+        "futureRom": "MA-SIL GGEO-YE-YO",
+        "futureEn": "will drink"
+      },
+      {
+        "id": "gongbuhada",
+        "en": "study",
+        "objectTypes": [],
+        "placeParticle": "eseo",
+        "past": "공부했어요",
+        "pastRom": "GONG-BU-HAE-SSEO-YO",
+        "pastEn": "studied",
+        "present": "공부해요",
+        "presentRom": "GONG-BU-HAE-YO",
+        "presentEn": "study",
+        "future": "공부할 거예요",
+        "futureRom": "GONG-BU-HAL GGEO-YE-YO",
+        "futureEn": "will study"
       }
     ]
   },
@@ -415,6 +572,78 @@
         "kr": "사진",
         "rom": "",
         "en": "Photo/picture",
+        "category": "general"
+      },
+      {
+        "kr": "회사",
+        "rom": "HOE-SA",
+        "en": "Company/work",
+        "category": "general"
+      },
+      {
+        "kr": "집",
+        "rom": "JIP",
+        "en": "Home",
+        "category": "general"
+      },
+      {
+        "kr": "은행",
+        "rom": "EUN-HAENG",
+        "en": "Bank",
+        "category": "general"
+      },
+      {
+        "kr": "헬스장",
+        "rom": "HEL-SEU-JANG",
+        "en": "Gym",
+        "category": "general"
+      },
+      {
+        "kr": "밥",
+        "rom": "BAP",
+        "en": "Rice/meal",
+        "category": "general"
+      },
+      {
+        "kr": "오늘",
+        "rom": "O-NEUL",
+        "en": "Today",
+        "category": "general"
+      },
+      {
+        "kr": "어제",
+        "rom": "EO-JE",
+        "en": "Yesterday",
+        "category": "general"
+      },
+      {
+        "kr": "내일",
+        "rom": "NAE-IL",
+        "en": "Tomorrow",
+        "category": "general"
+      },
+      {
+        "kr": "지금",
+        "rom": "JI-GEUM",
+        "en": "Now/right now",
+        "category": "general"
+      },
+      {
+        "kr": "조금",
+        "rom": "JO-GEUM",
+        "en": "A little",
+        "category": "general"
+      },
+      {
+        "kr": "벌써",
+        "rom": "BEOL-SSEO",
+        "en": "Already",
+        "category": "general"
+      },
+      {
+        "kr": "갈비",
+        "rom": "GAL-BI",
+        "en": "Galbi (beef ribs)",
         "category": "general"
       }
     ],
@@ -587,6 +816,56 @@
         "en": "hungry",
         "compatibleSubjects": [
           "activity"
+        ]
+      },
+      {
+        "id": "to_be_fun_interesting",
+        "kr": "재미있다",
+        "rom": "JAE-MI-IT-DA",
+        "en": "to be fun/interesting",
+        "compatibleSubjects": [
+          "food",
+          "drink"
+        ]
+      },
+      {
+        "id": "to_be_boring",
+        "kr": "지루하다",
+        "rom": "JI-RU-HA-DA",
+        "en": "to be boring",
+        "compatibleSubjects": [
+          "food",
+          "drink"
+        ]
+      },
+      {
+        "id": "to_be_hungry",
+        "kr": "배고프다",
+        "rom": "BAE-GO-PEU-DA",
+        "en": "to be hungry",
+        "compatibleSubjects": [
+          "food",
+          "drink"
+        ]
+      },
+      {
+        "id": "to_be_tired",
+        "kr": "피곤하다",
+        "rom": "PI-GON-HA-DA",
+        "en": "to be tired",
+        "compatibleSubjects": [
+          "food",
+          "drink"
+        ]
+      },
+      {
+        "id": "to_be_busy",
+        "kr": "바쁘다",
+        "rom": "BA-PPEU-DA",
+        "en": "to be busy",
+        "compatibleSubjects": [
+          "food",
+          "drink"
         ]
       }
     ],
@@ -922,6 +1201,16 @@
             "kr": "머리 아파요",
             "rom": "MEO-RI A-PA-YO",
             "en": "I have a headache"
+          }
+        ]
+      },
+      {
+        "name": "Verbs to Review",
+        "cards": [
+          {
+            "kr": "찍다",
+            "rom": "JJIK-DA",
+            "en": "to take (photo)"
           }
         ]
       }

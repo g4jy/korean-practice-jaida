@@ -287,6 +287,102 @@
         "rom": "GAL-BI",
         "en": "galbi (beef ribs)",
         "category": "general"
+      },
+      {
+        "kr": "비",
+        "rom": "BI",
+        "en": "rain",
+        "category": "general"
+      },
+      {
+        "kr": "눈",
+        "rom": "NUN",
+        "en": "snow",
+        "category": "general"
+      },
+      {
+        "kr": "잠",
+        "rom": "JAM",
+        "en": "sleep / sleepiness",
+        "category": "general"
+      },
+      {
+        "kr": "햇빛",
+        "rom": "HAE-BBIT",
+        "en": "sunlight",
+        "category": "general"
+      },
+      {
+        "kr": "카페",
+        "rom": "KA-PE",
+        "en": "cafe",
+        "category": "general"
+      },
+      {
+        "kr": "병원",
+        "rom": "BYEONG-WON",
+        "en": "hospital / clinic",
+        "category": "general"
+      },
+      {
+        "kr": "의사",
+        "rom": "UI-SA",
+        "en": "doctor",
+        "category": "general"
+      },
+      {
+        "kr": "생일",
+        "rom": "SAENG-IL",
+        "en": "birthday",
+        "category": "general"
+      },
+      {
+        "kr": "아버지",
+        "rom": "A-BEO-JI",
+        "en": "father (formal)",
+        "category": "general"
+      },
+      {
+        "kr": "어머니",
+        "rom": "EO-MEO-NI",
+        "en": "mother (formal)",
+        "category": "general"
+      },
+      {
+        "kr": "엄마",
+        "rom": "EOM-MA",
+        "en": "mom (informal)",
+        "category": "general"
+      },
+      {
+        "kr": "환갑",
+        "rom": "HWAN-GAP",
+        "en": "60th birthday celebration (major Korean milestone)",
+        "category": "general"
+      },
+      {
+        "kr": "학생",
+        "rom": "HAK-SAENG",
+        "en": "student",
+        "category": "general"
+      },
+      {
+        "kr": "매일",
+        "rom": "MAE-IL",
+        "en": "every day",
+        "category": "general"
+      },
+      {
+        "kr": "춤",
+        "rom": "CHUM",
+        "en": "dance",
+        "category": "general"
+      },
+      {
+        "kr": "갸루",
+        "rom": "GYA-RU",
+        "en": "gyaru (Japanese subculture)",
+        "category": "general"
       }
     ],
     "verbs": [
@@ -497,6 +593,117 @@
         "future": "공부할 거예요",
         "futureRom": "GONG-BU-HAL GGEO-YE-YO",
         "futureEn": "will study"
+      },
+      {
+        "id": "oda",
+        "en": "come",
+        "objectTypes": [],
+        "placeParticle": "e",
+        "past": "왔어요",
+        "pastRom": "WA-SSEO-YO",
+        "pastEn": "came",
+        "present": "와요",
+        "presentRom": "WA-YO",
+        "presentEn": "come",
+        "future": "올 거예요",
+        "futureRom": "OL GGEO-YE-YO",
+        "futureEn": "will come"
+      },
+      {
+        "id": "swida",
+        "en": "rest",
+        "objectTypes": [],
+        "placeParticle": "eseo",
+        "past": "쉬었어요",
+        "pastRom": "SWI-EO-SSEO-YO",
+        "pastEn": "rested",
+        "present": "쉬어요",
+        "presentRom": "SWI-EO-YO",
+        "presentEn": "rest",
+        "future": "쉴 거예요",
+        "futureRom": "SWIL GGEO-YE-YO",
+        "futureEn": "will rest"
+      },
+      {
+        "id": "gada",
+        "en": "go",
+        "objectTypes": [],
+        "placeParticle": "e",
+        "past": "갔어요",
+        "pastRom": "GA-SSEO-YO",
+        "pastEn": "went",
+        "present": "가요",
+        "presentRom": "GA-YO",
+        "presentEn": "go",
+        "future": "갈 거예요",
+        "futureRom": "GAL GGEO-YE-YO",
+        "futureEn": "will go"
+      },
+      {
+        "id": "masida",
+        "en": "drink",
+        "objectTypes": [
+          "drink"
+        ],
+        "placeParticle": "eseo",
+        "past": "마셨어요",
+        "pastRom": "MA-SYEO-SSEO-YO",
+        "pastEn": "drank",
+        "present": "마셔요",
+        "presentRom": "MA-SYEO-YO",
+        "presentEn": "drink",
+        "future": "마실 거예요",
+        "futureRom": "MA-SIL GGEO-YE-YO",
+        "futureEn": "will drink"
+      },
+      {
+        "id": "gongbuhada",
+        "en": "study",
+        "objectTypes": [],
+        "placeParticle": "eseo",
+        "past": "공부했어요",
+        "pastRom": "GONG-BU-HAE-SSEO-YO",
+        "pastEn": "studied",
+        "present": "공부해요",
+        "presentRom": "GONG-BU-HAE-YO",
+        "presentEn": "study",
+        "future": "공부할 거예요",
+        "futureRom": "GONG-BU-HAL GGEO-YE-YO",
+        "futureEn": "will study"
+      },
+      {
+        "id": "mannada",
+        "en": "meet",
+        "objectTypes": [
+          "person"
+        ],
+        "placeParticle": "eseo",
+        "past": "만났어요",
+        "pastRom": "MAN-NA-SSEO-YO",
+        "pastEn": "met",
+        "present": "만나요",
+        "presentRom": "MAN-NA-YO",
+        "presentEn": "meet",
+        "future": "만날 거예요",
+        "futureRom": "MAN-NAL GGEO-YE-YO",
+        "futureEn": "will meet"
+      },
+      {
+        "id": "ilkda",
+        "en": "read",
+        "objectTypes": [
+          "thing"
+        ],
+        "placeParticle": "eseo",
+        "past": "읽었어요",
+        "pastRom": "IL-GEO-SSEO-YO",
+        "pastEn": "read",
+        "present": "읽어요",
+        "presentRom": "IL-GEO-YO",
+        "presentEn": "read",
+        "future": "읽을 거예요",
+        "futureRom": "IL-GEUL GGEO-YE-YO",
+        "futureEn": "will read"
       }
     ]
   },
@@ -644,6 +851,102 @@
         "kr": "갈비",
         "rom": "GAL-BI",
         "en": "Galbi (beef ribs)",
+        "category": "general"
+      },
+      {
+        "kr": "비",
+        "rom": "BI",
+        "en": "Rain",
+        "category": "general"
+      },
+      {
+        "kr": "눈",
+        "rom": "NUN",
+        "en": "Snow",
+        "category": "general"
+      },
+      {
+        "kr": "잠",
+        "rom": "JAM",
+        "en": "Sleep / sleepiness",
+        "category": "general"
+      },
+      {
+        "kr": "햇빛",
+        "rom": "HAE-BBIT",
+        "en": "Sunlight",
+        "category": "general"
+      },
+      {
+        "kr": "카페",
+        "rom": "KA-PE",
+        "en": "Cafe",
+        "category": "general"
+      },
+      {
+        "kr": "병원",
+        "rom": "BYEONG-WON",
+        "en": "Hospital / clinic",
+        "category": "general"
+      },
+      {
+        "kr": "의사",
+        "rom": "UI-SA",
+        "en": "Doctor",
+        "category": "general"
+      },
+      {
+        "kr": "생일",
+        "rom": "SAENG-IL",
+        "en": "Birthday",
+        "category": "general"
+      },
+      {
+        "kr": "아버지",
+        "rom": "A-BEO-JI",
+        "en": "Father (formal)",
+        "category": "general"
+      },
+      {
+        "kr": "어머니",
+        "rom": "EO-MEO-NI",
+        "en": "Mother (formal)",
+        "category": "general"
+      },
+      {
+        "kr": "엄마",
+        "rom": "EOM-MA",
+        "en": "Mom (informal)",
+        "category": "general"
+      },
+      {
+        "kr": "환갑",
+        "rom": "HWAN-GAP",
+        "en": "60th birthday celebration (major korean milestone)",
+        "category": "general"
+      },
+      {
+        "kr": "학생",
+        "rom": "HAK-SAENG",
+        "en": "Student",
+        "category": "general"
+      },
+      {
+        "kr": "매일",
+        "rom": "MAE-IL",
+        "en": "Every day",
+        "category": "general"
+      },
+      {
+        "kr": "춤",
+        "rom": "CHUM",
+        "en": "Dance",
+        "category": "general"
+      },
+      {
+        "kr": "갸루",
+        "rom": "GYA-RU",
+        "en": "Gyaru (japanese subculture)",
         "category": "general"
       }
     ],
@@ -863,6 +1166,56 @@
         "kr": "바쁘다",
         "rom": "BA-PPEU-DA",
         "en": "to be busy",
+        "compatibleSubjects": [
+          "food",
+          "drink"
+        ]
+      },
+      {
+        "id": "cute___adorable",
+        "kr": "귀엽다",
+        "rom": "GWI-YEOP-DA",
+        "en": "cute / adorable",
+        "compatibleSubjects": [
+          "food",
+          "drink"
+        ]
+      },
+      {
+        "id": "beautiful",
+        "kr": "아름답다",
+        "rom": "A-REUM-DAP-DA",
+        "en": "beautiful",
+        "compatibleSubjects": [
+          "food",
+          "drink"
+        ]
+      },
+      {
+        "id": "lovely_(loanword)",
+        "kr": "러블리하다",
+        "rom": "REO-BEUL-LI-HA-DA",
+        "en": "lovely (loanword)",
+        "compatibleSubjects": [
+          "food",
+          "drink"
+        ]
+      },
+      {
+        "id": "fun___interesting",
+        "kr": "재밌다",
+        "rom": "JAE-MIT-DA",
+        "en": "fun / interesting",
+        "compatibleSubjects": [
+          "food",
+          "drink"
+        ]
+      },
+      {
+        "id": "delicious",
+        "kr": "맛있다",
+        "rom": "MA-SIT-DA",
+        "en": "delicious",
         "compatibleSubjects": [
           "food",
           "drink"
@@ -1211,6 +1564,76 @@
             "kr": "찍다",
             "rom": "JJIK-DA",
             "en": "to take (photo)"
+          },
+          {
+            "kr": "춤추다",
+            "rom": "CHUM-CHU-DA",
+            "en": "to dance"
+          },
+          {
+            "kr": "잊어버리다",
+            "rom": "I-JEO-BEO-RI-DA",
+            "en": "to forget"
+          }
+        ]
+      },
+      {
+        "name": "Expressions",
+        "cards": [
+          {
+            "kr": "비가 와요",
+            "rom": "BI-GA WA-YO",
+            "en": "it's raining"
+          },
+          {
+            "kr": "눈이 와요",
+            "rom": "NU-NI WA-YO",
+            "en": "it's snowing"
+          },
+          {
+            "kr": "잠이 와요",
+            "rom": "JA-MI WA-YO",
+            "en": "I'm getting sleepy"
+          },
+          {
+            "kr": "아니에요",
+            "rom": "A-NI-E-YO",
+            "en": "no / it's not (humble refusal of compliment)"
+          },
+          {
+            "kr": "잘하고 있어요",
+            "rom": "JAL-HA-GO I-SSO-YO",
+            "en": "you're doing well"
+          },
+          {
+            "kr": "대단해요",
+            "rom": "DAE-DAN-HAE-YO",
+            "en": "amazing / impressive"
+          },
+          {
+            "kr": "미쳤어",
+            "rom": "MI-CHYEO-SSO",
+            "en": "that's crazy (informal exclamation)"
+          },
+          {
+            "kr": "너무 배고파요",
+            "rom": "NEO-MU BAE-GO-PA-YO",
+            "en": "I'm so hungry"
+          },
+          {
+            "kr": "완벽해요",
+            "rom": "WAN-BYEOK-HAE-YO",
+            "en": "perfect / it's perfect"
+          },
+          {
+            "kr": "한국어가 재밌어요 그래서 매일 공부해요",
+            "rom": "HAN-GU-GEO-GA JAE-MI-SSO-YO GEU-RAE-SEO MAE-IL GONG-BU-HAE-YO",
+            "en": "Korean is fun so I study every day"
+          },
+          {
+            "kr": "한국에 가고 싶어요",
+            "rom": "HAN-GU-GE GA-GO SI-PEO-YO",
+            "en": "I want to go to Korea"
           }
         ]
       }

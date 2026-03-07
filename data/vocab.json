@@ -383,6 +383,54 @@
         "rom": "GYA-RU",
         "en": "gyaru (Japanese subculture)",
         "category": "general"
+      },
+      {
+        "kr": "주문",
+        "rom": "JU-MUN",
+        "en": "order (noun)",
+        "category": "general"
+      },
+      {
+        "kr": "명",
+        "rom": "MYEONG",
+        "en": "counter for people",
+        "category": "general"
+      },
+      {
+        "kr": "분",
+        "rom": "BUN",
+        "en": "honorific counter for people",
+        "category": "general"
+      },
+      {
+        "kr": "사이즈",
+        "rom": "SA-I-JEU",
+        "en": "size",
+        "category": "general"
+      },
+      {
+        "kr": "필요",
+        "rom": "PIL-YO",
+        "en": "need (noun)",
+        "category": "general"
+      },
+      {
+        "kr": "이백삼십",
+        "rom": "I-BAEK-SAM-SIP",
+        "en": "230 (number / shoe size)",
+        "category": "general"
+      },
+      {
+        "kr": "팁",
+        "rom": "TIP",
+        "en": "tip (gratuity)",
+        "category": "general"
+      },
+      {
+        "kr": "세상 평화",
+        "rom": "SE-SANG PYEONG-HWA",
+        "en": "world peace",
+        "category": "general"
       }
     ],
     "verbs": [
@@ -704,6 +752,55 @@
         "future": "읽을 거예요",
         "futureRom": "IL-GEUL GGEO-YE-YO",
         "futureEn": "will read"
+      },
+      {
+        "id": "anda",
+        "en": "sit",
+        "objectTypes": [],
+        "placeParticle": "e",
+        "past": "앉았어요",
+        "pastRom": "AN-JA-SSEO-YO",
+        "pastEn": "sat",
+        "present": "앉아요",
+        "presentRom": "AN-JA-YO",
+        "presentEn": "sit",
+        "future": "앉을 거예요",
+        "futureRom": "AN-JEUL GGEO-YE-YO",
+        "futureEn": "will sit"
+      },
+      {
+        "id": "ipda",
+        "en": "wear",
+        "objectTypes": [
+          "thing"
+        ],
+        "placeParticle": "eseo",
+        "past": "입었어요",
+        "pastRom": "IB-EO-SSEO-YO",
+        "pastEn": "wore",
+        "present": "입어요",
+        "presentRom": "IB-EO-YO",
+        "presentEn": "wear",
+        "future": "입을 거예요",
+        "futureRom": "IB-EUL GGEO-YE-YO",
+        "futureEn": "will wear"
+      },
+      {
+        "id": "sseuda",
+        "en": "write/use",
+        "objectTypes": [
+          "thing"
+        ],
+        "placeParticle": "eseo",
+        "past": "썼어요",
+        "pastRom": "SSEO-SSEO-YO",
+        "pastEn": "wrote",
+        "present": "써요",
+        "presentRom": "SSEO-YO",
+        "presentEn": "write",
+        "future": "쓸 거예요",
+        "futureRom": "SSEUL GGEO-YE-YO",
+        "futureEn": "will write"
       }
     ]
   },
@@ -947,6 +1044,54 @@
         "kr": "갸루",
         "rom": "GYA-RU",
         "en": "Gyaru (japanese subculture)",
+        "category": "general"
+      },
+      {
+        "kr": "주문",
+        "rom": "JU-MUN",
+        "en": "Order (noun)",
+        "category": "general"
+      },
+      {
+        "kr": "명",
+        "rom": "MYEONG",
+        "en": "Counter for people",
+        "category": "general"
+      },
+      {
+        "kr": "분",
+        "rom": "BUN",
+        "en": "Honorific counter for people",
+        "category": "general"
+      },
+      {
+        "kr": "사이즈",
+        "rom": "SA-I-JEU",
+        "en": "Size",
+        "category": "general"
+      },
+      {
+        "kr": "필요",
+        "rom": "PIL-YO",
+        "en": "Need (noun)",
+        "category": "general"
+      },
+      {
+        "kr": "이백삼십",
+        "rom": "I-BAEK-SAM-SIP",
+        "en": "230 (number / shoe size)",
+        "category": "general"
+      },
+      {
+        "kr": "팁",
+        "rom": "TIP",
+        "en": "Tip (gratuity)",
+        "category": "general"
+      },
+      {
+        "kr": "세상 평화",
+        "rom": "SE-SANG PYEONG-HWA",
+        "en": "World peace",
         "category": "general"
       }
     ],
@@ -1216,6 +1361,36 @@
         "kr": "맛있다",
         "rom": "MA-SIT-DA",
         "en": "delicious",
+        "compatibleSubjects": [
+          "food",
+          "drink"
+        ]
+      },
+      {
+        "id": "comfortable",
+        "kr": "편하다",
+        "rom": "PYEON-HA-DA",
+        "en": "comfortable",
+        "compatibleSubjects": [
+          "food",
+          "drink"
+        ]
+      },
+      {
+        "id": "small",
+        "kr": "작다",
+        "rom": "JAK-DA",
+        "en": "small",
+        "compatibleSubjects": [
+          "food",
+          "drink"
+        ]
+      },
+      {
+        "id": "big___large",
+        "kr": "크다",
+        "rom": "KEU-DA",
+        "en": "big / large",
         "compatibleSubjects": [
           "food",
           "drink"
@@ -1574,6 +1749,26 @@
             "kr": "잊어버리다",
             "rom": "I-JEO-BEO-RI-DA",
             "en": "to forget"
+          },
+          {
+            "kr": "찾다",
+            "rom": "CHAT-DA",
+            "en": "to look for / to find"
+          },
+          {
+            "kr": "신다",
+            "rom": "SIN-DA",
+            "en": "to put on / wear (shoes)"
+          },
+          {
+            "kr": "드시다",
+            "rom": "DEU-SI-DA",
+            "en": "to eat / dine (honorific)"
+          },
+          {
+            "kr": "도와드리다",
+            "rom": "DO-WA-DEU-RI-DA",
+            "en": "to help (humble/respectful form)"
           }
         ]
       },
@@ -1634,6 +1829,101 @@
             "kr": "한국에 가고 싶어요",
             "rom": "HAN-GU-GE GA-GO SI-PEO-YO",
             "en": "I want to go to Korea"
+          },
+          {
+            "kr": "주문하시겠어요",
+            "rom": "JU-MUN-HA-SI-GET-EO-YO",
+            "en": "Would you like to order?"
+          },
+          {
+            "kr": "주문 도와드릴게요",
+            "rom": "JU-MUN DO-WA-DEU-RIL-GE-YO",
+            "en": "I'll help with your order"
+          },
+          {
+            "kr": "주문 도와드릴까요",
+            "rom": "JU-MUN DO-WA-DEU-RIL-GGA-YO",
+            "en": "Shall I help you order?"
+          },
+          {
+            "kr": "몇 분이세요",
+            "rom": "MYEOT BUN-I-SE-YO",
+            "en": "How many in your party?"
+          },
+          {
+            "kr": "두 명이에요",
+            "rom": "DU MYEONG-I-E-YO",
+            "en": "There are two of us"
+          },
+          {
+            "kr": "편하신데 앉으세요",
+            "rom": "PYEON-HA-SIN-DE AN-JEU-SE-YO",
+            "en": "Please sit wherever you're comfortable"
+          },
+          {
+            "kr": "작은 거 주세요",
+            "rom": "JA-GEUN GEO JU-SE-YO",
+            "en": "Give me the small one please"
+          },
+          {
+            "kr": "큰 거 주세요",
+            "rom": "KEUN GEO JU-SE-YO",
+            "en": "Give me the big one please"
+          },
+          {
+            "kr": "제일 큰 거 주세요",
+            "rom": "JE-IL KEUN GEO JU-SE-YO",
+            "en": "Give me the biggest one please"
+          },
+          {
+            "kr": "작은 거 있어요",
+            "rom": "JA-GEUN GEO I-SSE-O-YO",
+            "en": "Do you have a smaller one?"
+          },
+          {
+            "kr": "입어봐도 돼요",
+            "rom": "I-BEO-BWA-DO DOE-YO",
+            "en": "May I try this on? (clothes)"
+          },
+          {
+            "kr": "신어봐도 돼요",
+            "rom": "SI-NEO-BWA-DO DOE-YO",
+            "en": "May I try these on? (shoes)"
+          },
+          {
+            "kr": "써봐도 돼요",
+            "rom": "SSEO-BWA-DO DOE-YO",
+            "en": "May I try this? (cosmetics)"
+          },
+          {
+            "kr": "필요하신 거 있으세요",
+            "rom": "PIL-YO-HA-SIN GEO I-SSE-O-SE-YO",
+            "en": "Is there anything you need?"
+          },
+          {
+            "kr": "찾으시는 거 있으세요",
+            "rom": "CHA-JEU-SI-NEUN GEO I-SSE-O-SE-YO",
+            "en": "Are you looking for something?"
+          },
+          {
+            "kr": "얼마예요",
+            "rom": "EO-MA-YE-YO",
+            "en": "How much is it?"
+          },
+          {
+            "kr": "드시고 가세요",
+            "rom": "DEU-SI-GO GA-SE-YO",
+            "en": "Are you eating here? / For here?"
+          },
+          {
+            "kr": "먹고 갈게요",
+            "rom": "MEOK-GO GAL-GE-YO",
+            "en": "I'll eat here (for here)"
+          },
+          {
+            "kr": "이거 하나 주세요",
+            "rom": "I-GEO HA-NA JU-SE-YO",
+            "en": "One of this please"
           }
         ]
       }
